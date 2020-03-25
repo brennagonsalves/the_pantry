@@ -6,106 +6,120 @@
     <title>Frontend Challenge</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c62ae369ea.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <section class="container">
+      <img class="top-bar" src="images/top-bar.png" alt="Top bar">
       <nav>
-        <div class="back-arrow">
           <h1>Washington & State</h1>
-        </div>
       </nav>
+      <div class="map">
+        <img class="map"src="images/map.png" alt="map">
+      </div>
       <div class="bus-direction">Eastbound</div>
-        <div class="bus-line">
-          <h2>Randolph/Harbor Dr <span class="bus-60">60</span>
-          </h2>
-            <ul class="time-table">
-              <h3>Arrival Time</h3>
-              <li>3:00pm</li>
-              <li>3:20pm</li>
-              <li>3:50pm</li>
-              <li>4:10pm</li>
-              <li>4:30pm</li>
-            </ul>
-        </div>
-        <div class="bus-line">
-          <h2>Navy Pier <span class="bus-124">124</span>
-          </h2>
-            <ul class="time-table">
-              <h3>Arrival Time</h3>
-              <li>3:08pm</li>
-              <li>3:18pm</li>
-              <li>3:28pm</li>
-              <li>3:38pm</li>
-              <li>3:48pm</li>
-            </ul>
-        </div>
-      <div class="bus-direction">Northbound</div>
-        <div class="bus-line">
-          <h2>Devon/Clark <span class="bus-151">151</span>
-          </h2>
-            <ul class="time-table">
-              <h3>Arrival Time</h3>
-              <li>3:10pm</li>
-              <li>3:26pm</li>
-              <li>3:40pm</li>
-              <li>3:56pm</li>
-              <li>4:10pm</li>
-            </ul>
-        </div>
-      <div class="bus-direction">Southbound</div>
-        <div class="bus-line">
-          <h2>103rd/Stony Island <span class="bus-J14">J14</span>
-          </h2>
-            <ul class="time-table">
-              <h3>Arrival Time</h3>
-              <li>3:15pm</li>
-              <li>3:30pm</li>
-              <li>3:45pm</li>
-              <li>4:00pm</li>
-              <li>4:15pm</li>
-            </ul>
-        </div>
-        <div class="bus-line">
-          <h2>Navy Pier <span class="bus-124">124</span>
-          </h2>
-            <ul class="time-table">
-              <h3>Arrival Time</h3>
-              <li>3:12pm</li>
-              <li>3:22pm</li>
-              <li>3:32pm</li>
-              <li>3:42pm</li>
-              <li>3:52pm</li>
-            </ul>
+        <div class="Routes">
+          <div class="bus-line">
+            <h2>Randolph/Harbor Dr <span class="bus-60">60</span>
+            </h2>
+            <h3>Runs every 20 minutes</h3>
+            <h3>Arrival Time: 3:00pm</h3>
           </div>
-      <div class="bus-direction">Reroute</div>
-        <div class="bus-line">
-          <h2>Jackson Park Express <span class="bus-6x">6x</span>
-          </h2>
+          <div class="arrow">
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
+        <hr>
+        <div class="Routes">
+          <div class="bus-line">
+            <h2>Navy Pier <span class="bus-124">124</span>
+            </h2>
+            <h3>Runs every 10 minutes</h3>
+            <h3>Arrival Time: 3:08pm</h3>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+      </div>
+      <div class="Routes">
+        <div class="bus-direction">Northbound</div>
+          <div class="bus-line">
+            <h2>Devon/Clark <span class="bus-151">151</span>
+            </h2>
+            <h3>Runs every 16 minutes</h3>
+            <h3>Arrival Time: 3:10pm</h3>
+          </div>
+          <div class="arrow">
+              <i class="fas fa-chevron-right"></i>
+          </div>
+      </div>
+      <div class="Routes">
+        <div class="bus-direction">Southbound</div>
+          <div class="bus-line">
+            <h2>103rd/Stony Island <span class="bus-J14">J14</span>
+            </h2>
+            <h3>Runs every 15 minutes</h3>
+            <h3>Arrival Time: 3:15pm</h3>
+          </div>
+          <div class="arrow">
+              <i class="fas fa-chevron-right"></i>
+          </div>
+      </div>
+        <hr>
+      <div class="Routes">
+        <div class="bus-line">
+          <h2>Navy Pier <span class="bus-124">124</span>
+          </h2>
+          <h3>Runs every 10 minutes
+          <h3>Arrival Time: 3:12pm</h3>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+      </div>
+      <div class="Routes">
+        <div class="bus-direction">Reroute</div>
+          <div class="bus-line">
+            <h2>Jackson Park Express <span class="bus-6x">6x</span>
+            </h2>
+          </div>
+          <div class="arrow">
+              <i class="fas fa-chevron-right"></i>
+          </div>
+      </div>
       <div class="bus-direction">Out of Service</div>
+      <div class="Routes">
         <div class="bus-line">
           <h2>Cottage Grove <span class="bus-4">4</span>
           </h2>
-            <ul class="time-table">
-              <h3>Resumes</h3>
-                <li>12:10am</li>
-            </ul>
+          <h3>Service Resumes: 12:10am</h3>
+        </div>
+          <div class="arrow">
+              <i class="fas fa-chevron-right"></i>
+          </div>
+      </div>
+        <hr>
+        </div class="Routes">
+          <div class="bus-line">
+            <h2>Madison <span class="bus-20">20</span>
+            </h2>
+            <h3>Service resumes: 12:10am</h3>
+          </div>
+          <div class="arrow">
+              <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <hr>
+        <div class="Routes">
         <div class="bus-line">
-          <h2>Madison <span class="bus-20">20</span>
+          <h2>Streeterville/Taylor <span class="bus-157">157</span>
           </h2>
-            <ul class="time-table">
-              <h3>Resumes</h3>
-                <li>12:10am</li>
-            </ul>
+          <h3>Service resumes: 6:00am</h3>
         </div>
-        <div class="bus-line-suspend">
-          <h2>Streetville/Taylor <span class="bus-157">157</span>
-          </h2>
-            <ul class="time-table">
-              <h3>Resumes</h3>
-                <li>6:00am</li>
-            </ul>
+        <div class="arrow">
+            <i class="fas fa-chevron-right"></i>
         </div>
+      </div>
     </section>
   </body>
 </html>
